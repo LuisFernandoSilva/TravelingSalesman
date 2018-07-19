@@ -3625,7 +3625,7 @@
     "_atlas": null
   },
   {
-    "__type__": "e7ab3uKviNMGZFlTQymttV1",
+    "__type__": "5b7a0beCJ5FXLvtrLF6xPie",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -3641,6 +3641,9 @@
     "opcaoLabel": {
       "__id__": 85
     },
+    "questionCorrect": {
+      "__id__": 35
+    },
     "questionCorrect1": {
       "__id__": 43
     },
@@ -3650,8 +3653,10 @@
     "hudQuestion": {
       "__id__": 75
     },
+    "num": 0,
     "score": 0,
-    "life": 5
+    "life": 5,
+    "questionControler": 2
   },
   {
     "__type__": "cc.Label",

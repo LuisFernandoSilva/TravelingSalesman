@@ -35,7 +35,9 @@ cc.Class({
 
     question: function(){
         let options = this.opcaoLabel.string;
-       
+        
+
+        let numero = parseInt(this.scoreLabel.string);
         console.log("num antes do primeiro if"+this.score);
 
         if(this.questionControler==1){
@@ -58,7 +60,7 @@ cc.Class({
                   this.hudQuestion.active = false;  
                   this.questionCorrect1.active = true;
                   console.log("Score no terceiro if: "+this.score);
-                  this.addScore(10);
+                  this.addScore(10 + numero);
 
               }else{
                   this.hudQuestion.active = false;   
