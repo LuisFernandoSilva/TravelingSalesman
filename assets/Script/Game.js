@@ -15,7 +15,7 @@ cc.Class({
         //hud question
         hudQuestion: cc.Node,
         
-        score:10,
+        score:0,
         life:5,
         questionControler: 1,
 
@@ -24,7 +24,7 @@ cc.Class({
     
     onLoad () {
 
-        this.node.on('touchend',function(event){
+        this.node.on('touchend',function(){
             this.question();
 
 
@@ -33,12 +33,15 @@ cc.Class({
 
     question: function(){
         let options = this.opcaoLabel.string;
+        
+        console.log("num antes do primeiro if"+this.score);
 
         if(this.questionControler==1){
               if(options == 'opção A'){
                   this.hudQuestion.active = false;   
                   this.questionCorrect.active = true;
                   this.addScore(100);
+                  console.log("num depois do segundo if "+this.score);
               }else{
                   this.hudQuestion.active = false;   
                   this.questionErase.active = true;
@@ -49,9 +52,9 @@ cc.Class({
               if(options == 'opção B'){
                   this.hudQuestion.active = false;  
                   this.questionCorrect1.active = true;
-                  let num = this.score;
-                  console.log(num);
-                  //this.addScore(10);
+                  console.log("Score no terceiro if: "+this.score);
+                  this.addScore(10);
+
               }else{
                   this.hudQuestion.active = false;   
                   this.questionErase.active = true;
@@ -62,13 +65,12 @@ cc.Class({
 
     addScore: function(ponto){
         
-    let num =  this.score;
-        num += ponto;
-        console.log(this.score);
-        num = this.score;
-        this.scoreLabel.string = num.toString();
+        this.score+= ponto;
+        console.log("depois da soma "+this.score);
+      
+        this.scoreLabel.string = this.score.toString();
         
-        console.log(this.score);
+        console.log("Score quando sai da funcao: "+this.score);
        
 
     },
