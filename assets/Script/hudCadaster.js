@@ -23,11 +23,11 @@ cc.Class({
     onLoad () {
         this.node.on('touchend', function(){
             this.hudQuestion1.setPositionX(-1000);
-            this.hudCadaster.setPosition(32,-70);
+            this.hudCadaster.setPosition(22,-11);
 
         },this);
         this.hudQuestion1.setPositionX(-3);
-        this.hudCadaster.setPositionY(466)
+        this.hudCadaster.setPositionY(492)
     },
     singleLineEditBoxDidEndEditing: function(sender) {
         cc.log(sender.node.name +  this.userEditBox.string);
@@ -39,11 +39,11 @@ cc.Class({
           case 0:
             this.buttonOK.on('touchend',function(){
                 this.hudQuestion1.setPosition(-1,-3);
-                this.hudCadaster.setPosition(230,466);
+                this.hudCadaster.setPosition(230,492);
                 
                 this.userLabel.string = this.userEditBox.string;
                 this.userMale.setPosition(-104,-2);
-                this.userDefault.setPosition(-105,47);
+                this.userDefault.setPosition(-108,59);
             },this); 
  
 
@@ -52,11 +52,14 @@ cc.Class({
           case 1:
             this.buttonOK.on('touchend',function(){
                 this.hudQuestion1.setPosition(-1,-3);
-                this.hudCadaster.setPosition(230,466);
+                this.hudCadaster.setPosition(230,492);
                 
                 this.userEditBox.string = this.userLabel.string;
                 this.userFemale.setPosition(-104,-2);
-                this.userDefault.setPosition(-65,45);
+                if (index == 0){
+                    this.userMale.setPosition(-104,-2);   
+                }
+                this.userDefault.setPosition(-70,60);
             },this);   
    
             break;
@@ -64,7 +67,7 @@ cc.Class({
           default:
             this.buttonOK.on('touchend',function(){
                 this.hudQuestion1.setPosition(-1,-3);
-                this.hudCadaster.setPosition(230,466);
+                this.hudCadaster.setPosition(230,492);
                 
                 this.userLabel = "user default";
                 this.userDefault.setPosition(-104,-2);

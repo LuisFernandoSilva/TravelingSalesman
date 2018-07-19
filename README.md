@@ -1,2 +1,2 @@
-# TravelingSalesman
-education game of the logistic class
+# hello-world
+Hello world new project template.
