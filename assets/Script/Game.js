@@ -14,7 +14,7 @@ cc.Class({
         questionErase: cc.Node,
         //hud question
         hudQuestion: cc.Node,
-        
+        num:0,
         score:0,
         life:5,
         questionControler: 1,
@@ -23,8 +23,10 @@ cc.Class({
 
     
     onLoad () {
+        this.num = this.score;
+        console.log("variavel iniciada no onload: "+this.num);
 
-        this.node.on('touchend',function(){
+        this.node.on('touchstart',function(){
             this.question();
 
 
@@ -33,7 +35,7 @@ cc.Class({
 
     question: function(){
         let options = this.opcaoLabel.string;
-        
+       
         console.log("num antes do primeiro if"+this.score);
 
         if(this.questionControler==1){
@@ -42,12 +44,15 @@ cc.Class({
                   this.questionCorrect.active = true;
                   this.addScore(100);
                   console.log("num depois do segundo if "+this.score);
+                  
               }else{
                   this.hudQuestion.active = false;   
                   this.questionErase.active = true;
                   this.lostLife(1);
               }
         }
+        this.num = this.score;
+        console.log("variavel num antes de ir p 3 if: "+this.num);
         if(this.questionControler==2){
               if(options == 'opção B'){
                   this.hudQuestion.active = false;  

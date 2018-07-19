@@ -1441,6 +1441,7 @@
     "hudQuestion": {
       "__id__": 19
     },
+    "num": 0,
     "score": 0,
     "life": 5,
     "questionControler": 1
@@ -3587,8 +3588,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 364,
-      "y": 0
+      "x": 360,
+      "y": -11
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -3624,7 +3625,7 @@
     "_atlas": null
   },
   {
-    "__type__": "5b7a0beCJ5FXLvtrLF6xPie",
+    "__type__": "e7ab3uKviNMGZFlTQymttV1",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -3640,9 +3641,6 @@
     "opcaoLabel": {
       "__id__": 85
     },
-    "questionCorrect": {
-      "__id__": 35
-    },
     "questionCorrect1": {
       "__id__": 43
     },
@@ -3653,8 +3651,7 @@
       "__id__": 75
     },
     "score": 0,
-    "life": 5,
-    "questionControler": 2
+    "life": 5
   },
   {
     "__type__": "cc.Label",
