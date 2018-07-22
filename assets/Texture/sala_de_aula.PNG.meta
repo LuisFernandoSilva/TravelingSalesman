@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b7abfc38-e451-41a9-9cb2-71220cf312e6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "sala_de_aula": {
+      "ver": "1.0.3",
+      "uuid": "4f39b431-07ab-4483-8d03-86b2a2b0251f",
+      "rawTextureUuid": "b7abfc38-e451-41a9-9cb2-71220cf312e6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 340,
+      "height": 195,
+      "rawWidth": 340,
+      "rawHeight": 195,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

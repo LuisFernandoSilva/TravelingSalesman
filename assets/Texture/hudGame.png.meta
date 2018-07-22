@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "e1533909-4bf9-42ef-a941-7355e27b9713",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "hudGame": {
+      "ver": "1.0.3",
+      "uuid": "912fe55b-8e28-447e-a3cd-a4ce4d488b39",
+      "rawTextureUuid": "e1533909-4bf9-42ef-a941-7355e27b9713",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 1.5,
+      "trimX": 13,
+      "trimY": 27,
+      "width": 798,
+      "height": 140,
+      "rawWidth": 821,
+      "rawHeight": 197,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

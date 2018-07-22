@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "f68f9cfa-40d5-4029-8589-c718d657d266",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "perguntaMedium02": {
+      "ver": "1.0.3",
+      "uuid": "296173b7-6c62-4f74-b7c0-b3c5747c624a",
+      "rawTextureUuid": "f68f9cfa-40d5-4029-8589-c718d657d266",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 792,
+      "height": 342,
+      "rawWidth": 792,
+      "rawHeight": 342,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

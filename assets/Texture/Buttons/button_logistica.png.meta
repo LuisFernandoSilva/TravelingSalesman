@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "1df8b10f-c246-4519-8ca9-8fa193f0c43c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "button_logistica": {
+      "ver": "1.0.3",
+      "uuid": "48353194-fb16-4c34-b34e-69663c127861",
+      "rawTextureUuid": "1df8b10f-c246-4519-8ca9-8fa193f0c43c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 202,
+      "height": 52,
+      "rawWidth": 202,
+      "rawHeight": 52,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ff90f3a1-8c62-4ec8-b080-b5118ebf7be2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "professor": {
+      "ver": "1.0.3",
+      "uuid": "8184d43e-889e-447c-a065-354cc8ac89b7",
+      "rawTextureUuid": "ff90f3a1-8c62-4ec8-b080-b5118ebf7be2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -7,
+      "offsetY": -2,
+      "trimX": 367,
+      "trimY": 91,
+      "width": 114,
+      "height": 172,
+      "rawWidth": 862,
+      "rawHeight": 350,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
