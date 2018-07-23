@@ -7,12 +7,19 @@ cc.Class({
         mainGameLogistic: cc.Node,
         easyQuestionHud: cc.Node,
         mediumQuestionHud: cc.Node,
-        hardQuestionHud: cc.Node,                
+        hardQuestionHud: cc.Node,  
+        screenGame: cc. Node,              
 
 
     },
 
-    onLoad () {},
+    onLoad () {
+        
+    },
+    
+    gameScreen: function(){
+        this.screenGame.active = true;
+    },
 
     easyQuestion: function() {
 

@@ -14,6 +14,7 @@ cc.Class({
 
         hudGameMain: cc.Node,
         bgMain: cc.Node,
+        screenGame: cc.Node,
 
     },
 
@@ -27,6 +28,7 @@ cc.Class({
 
     },
     returnMain: function(){
+        this.screenGame.active = false;
         this.hudGameMain.active = true;
         this.bgMain.active = true;
         this.mainGameLogistic.active = false;
