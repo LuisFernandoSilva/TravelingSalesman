@@ -6,6 +6,12 @@ cc.Class({
     properties: {
         mainGameLogistic: cc.Node,
         easyQuestionHud: cc.Node,
+        fase01Hud: cc.Node,
+        fase02Hud: cc.Node,
+        faseExtra1: cc.Node,
+        faseExtra2: cc.Node,
+        hudCadEmail:cc.Node,
+
         mediumQuestionHud: cc.Node,
         hardQuestionHud: cc.Node,  
         screenGame: cc. Node,              
@@ -25,6 +31,10 @@ cc.Class({
 
         this.mainGameLogistic.setPositionX(1000);
         this.easyQuestionHud.active = true;
+        this.fase01Hud.active = true;
+        this.fase02Hud.active = false;
+        this.faseExtra1.active = false;
+        this.faseExtra2.active = false;
 
 
     },
@@ -40,7 +50,12 @@ cc.Class({
         this.mainGameLogistic.setPositionX(1000);
         this.hardQuestionHud.active = true;
 
-    }
+    },
+
+    exitCadEmail: function(){
+        
+        this.hudCadEmail.setPositionX(2000);
+    },
 
     // update (dt) {},
 });

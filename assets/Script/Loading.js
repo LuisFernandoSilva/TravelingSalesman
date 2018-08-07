@@ -13,7 +13,7 @@ cc.Class({
         this.scheduleOnce(this.loadingScene, this._time);
     },
     loadingScene: function(){
-        cc.director.loadScene('Game');
+        cc.director.loadScene('MainMenu');
     },
 
     // update (dt) {},
