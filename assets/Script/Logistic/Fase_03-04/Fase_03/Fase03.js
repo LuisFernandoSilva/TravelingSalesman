@@ -41,11 +41,12 @@ cc.Class({
         if(this.questionControler == 1){
 
               if(options == 'opção B'){
+                console.log("Fase 03, questao 01 resposta certa "+options);  
                   this.hudQuestion.active = false;//faz com que as propriedades da pergunta se desativem   
                   this.questionCorrect1.active = true;//ativa o node da resposta correta
                   this.addScore(100 );//adiciona a pontuação
                 }else{
-                   
+                    console.log("Fase 03, questao 01 resposta errada "+options);  
                   this.hudQuestion.active = false;   
                   this.questionErase.active = true;//ativa o node da resposta errada
                  
@@ -54,11 +55,13 @@ cc.Class({
        
         if(this.questionControler == 2){
               if(options == 'opção D'){
+                console.log("Fase 03, questao 02 resposta certa "+options);  
                   this.hudQuestion.active = false;  
                   this.questionCorrect1.active = true;
                   this.addScore(100 );
 
                 }else{
+                console.log("Fase 03, questao 02 resposta errada "+options);   
                   this.hudQuestion.active = false;   
                   this.questionErase.active = true;
                  
@@ -66,12 +69,14 @@ cc.Class({
         } 
 
         if(this.questionControler == 3){
+            console.log("Fase 03, questao 03 resposta certa "+options);  
             if(options == 'opção C'){
                 this.hudQuestion.active = false;  
                 this.questionCorrect1.active = true;
                 this.addScore(100 );
 
             }else{
+            console.log("Fase 03, questao 03 resposta errada "+options);      
                 this.hudQuestion.active = false;   
                 this.questionErase.active = true;
                 
@@ -80,10 +85,12 @@ cc.Class({
         if(this.questionControler == 4){
 
             if(options == 'opção A'){
+                console.log("Fase 03, questao 04 resposta certa "+options);      
                 this.hudQuestion.active = false;   
                 this.questionCorrect1.active = true;
                 this.addScore(100 );
               }else{
+                console.log("Fase 03, questao 04 resposta errada "+options);    
                 this.hudQuestion.active = false;   
                 this.questionErase.active = true;
                
@@ -93,11 +100,13 @@ cc.Class({
         if(this.questionControler == 5){
 
             if(options == 'opção D'){
+                console.log("Fase 03, questao 05 resposta certa "+options);  
                 this.hudQuestion.active = false;  
                 this.questionCorrect1.active = true;
                 this.addScore(100 );
 
             }else{
+                console.log("Fase 03, questao 05 resposta errada "+options);  
                 this.hudQuestion.active = false;   
                 this.questionErase.active = true;
                 

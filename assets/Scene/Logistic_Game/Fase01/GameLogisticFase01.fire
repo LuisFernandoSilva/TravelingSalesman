@@ -1855,6 +1855,7 @@
       "__id__": 24
     },
     "score": 0,
+    "_option": [],
     "questionControler": 1
   },
   {
@@ -1900,7 +1901,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": -80
+      "y": -13
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -4346,6 +4347,7 @@
       "__id__": 89
     },
     "score": 0,
+    "_option": [],
     "questionControler": 2
   },
   {
@@ -5941,6 +5943,7 @@
       "__id__": 130
     },
     "score": 0,
+    "_option": [],
     "questionControler": 3
   },
   {
@@ -7536,6 +7539,7 @@
       "__id__": 171
     },
     "score": 0,
+    "_option": [],
     "questionControler": 4
   },
   {
@@ -9131,6 +9135,7 @@
       "__id__": 212
     },
     "score": 0,
+    "_option": [],
     "questionControler": 5
   },
   {

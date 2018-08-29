@@ -41,12 +41,13 @@ cc.Class({
         if(this.questionControler == 6){
 
             if(options == 'opção B'){
+                console.log("Fase 06, questao 01 resposta certa "+options); 
                this.hudQuestion.active = false;  
                this.questionCorrect1.active = true;
                this.addScore(100);
  
              }else{
-               
+               console.log("Fase 06, questao 01 resposta errada "+options); 
                this.hudQuestion.active = false;   
                this.questionErase.active = true;
                
@@ -56,10 +57,12 @@ cc.Class({
          if(this.questionControler == 7){
  
              if(options == 'opção D'){
+                console.log("Fase 06, questao 02 resposta certa "+options); 
                  this.hudQuestion.active = false;   
                  this.questionCorrect1.active = true;
                  this.addScore(100);
              }else{
+                console.log("Fase 06, questao 02 resposta errada "+options); 
                  this.hudQuestion.active = false;   
                  this.questionErase.active = true;
                  
@@ -69,10 +72,12 @@ cc.Class({
          if(this.questionControler == 8){
  
              if(options == 'opção B'){
+                console.log("Fase 06, questao 03 resposta certa "+options); 
                  this.hudQuestion.active = false;  
                  this.questionCorrect1.active = true;
                  this.addScore(100 );
              }else{
+                console.log("Fase 06, questao 03 resposta errada "+options); 
                  this.hudQuestion.active = false;   
                  this.questionErase.active = true;
                 
@@ -82,10 +87,12 @@ cc.Class({
          if(this.questionControler == 9){
  
              if(options == 'opção C'){
+                console.log("Fase 06, questao 01 resposta certa "+options); 
                  this.hudQuestion.active = false;  
                  this.questionCorrect1.active = true;
                  this.addScore(100);
              }else{
+                console.log("Fase 06, questao 01 resposta errada "+options); 
                  this.hudQuestion.active = false;   
                  this.questionErase.active = true;
                 

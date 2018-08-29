@@ -38,7 +38,9 @@ cc.Class({
     sendEmail: function(){
         this.user = this.userEditBox.string;
         this.email = this.emailEditBox.string;
+       
     }
 
     // update (dt) {},
 });
+

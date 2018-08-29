@@ -49,20 +49,20 @@ cc.Class({
         }else if (this.moveControler == 2){
 
             this.hudQuestion03.setPosition(26,10);
-            this.hudQuestion02.setPositionX(1906);
+            this.hudQuestion02.setPosition(1906, 40);
             this.moveControler = 3;
             
          }else if (this.moveControler == 3){
 
             if(numero < 200){
 
-                this.hudQuestion03.setPositionX(1900);
+                this.hudQuestion03.setPosition(1906, 40);
                 this.moveHudExtraFase02.active = false;
                 this.questionRecovery.setPosition(0,-80);
                 
 
             }else{
-                this.hudQuestion03.setPositionX(1900);
+                this.hudQuestion03.setPosition(1906, 40);
                 this.moveHudExtraFase02.active = false;
                 this.finalQuestionFase02.setPosition(0,-80);
    

@@ -40,26 +40,26 @@ cc.Class({
         if(this.moveControler == 1){
 
             this.hudQuestion02.setPosition(196,-290);
-            this.hudQuestion01.setPositionX(3000);
+            this.hudQuestion01.setPosition(1906, 40);
 
            this.moveControler = 2;
  
         }else if (this.moveControler == 2){
 
             this.hudQuestion03.setPosition(120,-62);
-            this.hudQuestion02.setPositionX(3906);
+            this.hudQuestion02.setPosition(1906, 40);
             this.moveControler = 3;
             
          }else if (this.moveControler == 3){
 
             if(numero < 200){
-                this.hudQuestion03.setPositionX(1900);
+                this.hudQuestion03.setPosition(1906, 40);
                 this.moveHudExtraFase01.active = false;
                 this.questionRecovery.setPosition(0,-80);
                 
 
             }else{
-                this.hudQuestion03.setPositionX(1900);
+                this.hudQuestion03.setPosition(1906, 40);
                 this.moveHudExtraFase01.active = false;
                 this.finalQuestionFase01.setPosition(0,-21);
    

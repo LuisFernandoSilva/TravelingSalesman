@@ -316,7 +316,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 398,
+      "width": 422,
       "height": 240
     },
     "_rotationX": 0,
@@ -348,10 +348,8 @@
     "_fontSize": 80,
     "_lineHeight": 80,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "57755ce6-25a2-46e7-9c65-f87514944cf7"
-    },
-    "_isSystemFontUsed": false,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_N$string": " BRAI\n             IAC\n Modo Quiz",
     "_N$horizontalAlign": 0,
@@ -424,9 +422,7 @@
     "_fontSize": 80,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "57755ce6-25a2-46e7-9c65-f87514944cf7"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_N$string": "N",
@@ -567,7 +563,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 99,
+      "width": 112,
       "height": 40
     },
     "_rotationX": 0,
@@ -599,9 +595,7 @@
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "57755ce6-25a2-46e7-9c65-f87514944cf7"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_N$string": "Versão 1.1.2",

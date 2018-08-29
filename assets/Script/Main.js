@@ -4,13 +4,12 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        bgMusic: cc.AudioClip,
+       
 
     },
 
     onload: function(){
-        var audioUrl = this.bgMusic;
-        cc.audioEngine.playEffect(audioUrl, true, 0.1);
+
 
     },
 

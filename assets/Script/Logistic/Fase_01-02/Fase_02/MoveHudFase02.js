@@ -42,36 +42,36 @@ cc.Class({
         if(this.moveControler == 6){
 
            this.hudQuestion07.setPosition(-32,41);
-           this.hudQuestion06.setPositionX(1087);
+           this.hudQuestion06.setPosition(1906, 40);
            this.moveControler = 7;
 
         }else if(this.moveControler == 7){
 
            this.hudQuestion08.setPosition(-43,44);
-           this.hudQuestion07.setPositionX(1087);
+           this.hudQuestion07.setPosition(1906, 40);
            this.moveControler = 8;
 
         }else if (this.moveControler == 8){
 
            this.hudQuestion09.setPosition(-27,-27);
-           this.hudQuestion08.setPositionX(1906);
+           this.hudQuestion08.setPosition(1906, 40);
            this.moveControler = 9;
 
         }else if(this.moveControler == 9){
 
            this.hudQuestion10.setPosition(-35,24);
-           this.hudQuestion09.setPositionX(1087);
+           this.hudQuestion09.setPosition(1906, 40);
            this.moveControler = 10;
 
         }else if(this.moveControler == 10){
         
             if(numero < 700){
                 
-                this.hudQuestion10.setPositionX(1906);
+                this.hudQuestion10.setPosition(1906, 40);
                 this.moveHudFase02.active = false;
                 this.questionRecoveryFase2.setPosition(0,-80);
             }else{
-                this.hudQuestion10.setPositionX(1906);
+                this.hudQuestion10.setPosition(1906, 40);
                 this.finalQuestionFase02.setPosition(0,-80);
                 this.moveHudFase02.active = false;;
             } 

@@ -1708,9 +1708,6 @@
     "node": {
       "__id__": 2
     },
-    "_enabled": true,
-    "bgMusic": {
-      "__uuid__": "cd4c80c0-e1bb-478f-98dd-6f4a352f6a41"
-    }
+    "_enabled": true
   }
 ]

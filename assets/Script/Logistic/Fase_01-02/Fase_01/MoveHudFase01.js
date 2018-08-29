@@ -52,29 +52,29 @@ cc.Class({
         }else if (this.moveControler == 2){
 
            this.hudQuestion03.setPosition(113,-53);
-           this.hudQuestion02.setPositionX(1906);
+           this.hudQuestion02.setPosition(1906, 40);
            this.moveControler = 3;
            
         }else if(this.moveControler == 3){
 
            this.hudQuestion04.setPosition(95,9);
-           this.hudQuestion03.setPositionX(1087);
+           this.hudQuestion03.setPosition(1906, 40);
            this.moveControler = 4;
 
         }else if(this.moveControler == 4){
 
            this.hudQuestion05.setPosition(83,1);
-           this.hudQuestion04.setPositionX(1087);
+           this.hudQuestion04.setPosition(1906, 40);
            this.moveControler = 5;
  
         }else if (this.moveControler == 5){
             
             if(numero < 400){
-                this.hudQuestion05.setPositionX(1906);
+                this.hudQuestion05.setPosition(1906, 40);
                 this.moveHudFase01.active = false;
                 this.questionRecovery.setPosition(0,-80);
             }else{
-                this.hudQuestion05.setPositionX(1906);
+                this.hudQuestion05.setPosition(1906, 40);
                 this.finalQuestionFase01.setPosition(0,-80);
                 this.moveHudFase01.active = false;
             }

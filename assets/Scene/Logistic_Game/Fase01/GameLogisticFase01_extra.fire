@@ -4018,7 +4018,9 @@
     "hudQuestion": {
       "__id__": 81
     },
-    "scoreLabel": null,
+    "scoreLabel": {
+      "__id__": 18
+    },
     "score": 0,
     "questionControler": 2
   },
